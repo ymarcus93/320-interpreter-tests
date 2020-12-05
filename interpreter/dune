@@ -1,0 +1,3 @@
+; names = name of the files to compile into executables
+ (library
+ (name interpreter))

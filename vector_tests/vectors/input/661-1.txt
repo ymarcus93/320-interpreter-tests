@@ -1,0 +1,16 @@
+Fun identity x
+Push x
+Return
+EndFun
+Fun _catExcl y
+Push "!"
+Push y
+Cat
+Return
+EndFun
+Push identity
+Push _catExcl
+Call
+Push "Dunder Mifflin"
+Call
+Quit

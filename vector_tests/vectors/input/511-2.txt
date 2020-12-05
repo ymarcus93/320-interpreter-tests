@@ -1,0 +1,14 @@
+If
+Push <false>
+Push foo
+Bnd
+Push foo
+Then
+Push "hermione"
+Push "ron"
+Push "harry"
+Else
+Push 2
+Push bar
+Add
+EndIf

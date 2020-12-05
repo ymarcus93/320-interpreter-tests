@@ -1,0 +1,10 @@
+Begin
+Fun identity x
+Push x
+Return
+EndFun
+End
+Push identity
+Push 1
+Call
+Quit

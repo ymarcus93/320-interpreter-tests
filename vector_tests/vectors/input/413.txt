@@ -1,0 +1,5 @@
+Push 1
+Push 2
+Quit
+Push 3
+Push 4

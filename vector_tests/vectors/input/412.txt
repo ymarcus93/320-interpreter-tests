@@ -1,0 +1,3 @@
+Push "deadpool"
+Push "batman"
+Push "this is a string"

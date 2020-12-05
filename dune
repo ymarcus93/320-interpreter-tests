@@ -1,0 +1,9 @@
+(test
+ (name test_interpreter)
+ (libraries alcotest interp_prop_tests vector_tests)
+(action (run %{test} -e)))
+
+(env
+ (dev
+  (flags (:standard -w -27-30))))
+(dirs :standard \ extra) ;;

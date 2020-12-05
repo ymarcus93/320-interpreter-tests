@@ -1,0 +1,14 @@
+Push 1
+Push 2
+If
+Push "true"
+Push <true>
+Then
+Push "hermione"
+Push "ron"
+Push "harry"
+Else
+Push "granger"
+Push "weasley"
+Push "potter"
+EndIf

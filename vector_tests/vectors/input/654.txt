@@ -1,0 +1,20 @@
+Push 5
+Push y
+Bnd
+Begin
+Push 7
+Push y
+Bnd
+Fun addY x
+Begin
+Push x
+Push y
+Add
+End
+Return
+EndFun
+Push addY
+Push 2
+Call
+End
+Quit

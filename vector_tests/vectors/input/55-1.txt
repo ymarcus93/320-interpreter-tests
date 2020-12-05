@@ -1,0 +1,3 @@
+Push 8
+Push 9
+Eq

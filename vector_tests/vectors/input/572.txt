@@ -1,0 +1,6 @@
+Push 7
+Push sum1
+Bnd
+Push 5
+Push sum2
+Bnd

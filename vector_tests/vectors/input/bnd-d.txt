@@ -1,0 +1,4 @@
+Push 2
+Push a
+Push a
+Bnd

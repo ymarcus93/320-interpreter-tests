@@ -1,0 +1,3 @@
+(library
+ (name vector_tests)
+ (libraries interpreter alcotest core ))

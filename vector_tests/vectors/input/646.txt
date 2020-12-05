@@ -1,0 +1,23 @@
+Fun add1 x
+Push x
+Push 1
+Add
+Return
+EndFun
+Push 2
+Push z
+Bnd
+Fun twiceZ y
+Push y
+Push z
+Call
+Push y
+Push z
+Call
+Add
+Return
+EndFun
+Push twiceZ
+Push add1
+Call
+Quit

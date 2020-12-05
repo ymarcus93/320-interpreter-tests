@@ -1,0 +1,19 @@
+Push 3
+Push x
+Bnd
+Fun addX arg
+Push x
+Push arg
+Add
+Return
+EndFun
+Push 5
+Push x
+Bnd
+Push 3
+Push a
+Bnd
+Push addX
+Push a
+Call
+Quit

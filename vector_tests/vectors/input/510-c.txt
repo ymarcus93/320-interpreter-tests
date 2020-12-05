@@ -1,0 +1,6 @@
+Begin
+Push 3
+Push 10
+End
+Add
+Quit

@@ -1,0 +1,3 @@
+Push 7
+Push 7
+Eq

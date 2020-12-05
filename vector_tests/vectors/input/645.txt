@@ -1,0 +1,21 @@
+Fun factorial n
+If
+Push n
+Push 1
+Lt
+Then
+Push factorial
+Push 1
+Push n
+Sub
+Call
+Push n
+Mul
+Else
+Push 1
+EndIf
+EndFun
+Push factorial
+Push 5
+Call
+Quit

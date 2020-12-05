@@ -1,0 +1,6 @@
+Push <error>
+Push <unit>
+Push <error>
+Push <unit>
+Push <unit>
+Quit

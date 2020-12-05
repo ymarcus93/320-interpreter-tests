@@ -1,0 +1,4 @@
+(library
+ (name interp_prop_tests)
+ (preprocess (pps ppx_deriving.show))
+ (libraries interpreter qcheck qcheck-alcotest))

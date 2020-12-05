@@ -1,0 +1,15 @@
+Push 5
+Push a
+Bnd
+Pop
+Push 3
+Push a
+Add
+Push "str"
+Push b
+Bnd
+Pop
+Push 10
+Push b
+Sub
+Quit

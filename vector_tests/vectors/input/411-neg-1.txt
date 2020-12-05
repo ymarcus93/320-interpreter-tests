@@ -1,0 +1,4 @@
+Push 5
+Neg
+Push <true>
+Neg
