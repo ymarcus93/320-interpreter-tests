@@ -36,12 +36,26 @@ let interpret_file (inputFile : string) : string list
 2) From the root directory, run `dune build`. You only need to run this once, or when new vectors are added in `vector_tests/vectors`.
 3) From the root directory, run `dune runtest -f`.
 
+## Test Coverage
+
+The following commands are tested in the property-based tests found in the `qcheck_tests` directory:
+- Part 1:
+  - `Push <constant>`, `Pop`
+  - `Swap`
+  - `Add`, `Sub`, `Mul`, `Div`, `Rem`, `Neg`
+  - `Quit`
+- Part 2:
+  - `Cat`
+  - `And`, `Or`, `Not`
+  - `Lte`, `Lt`, `Gte`, `Gt`, `Eq`
+  - `Bnd` (and its effects on previous commands)
+
 ## TODO
 
-For a future iteration, I hope to finish the following tasks:
+In a future iteration, I hope to finish the following tasks:
 
 - [ ] Property-based tests for `BeginEnd`, `IfThenElse`, and all the commands in part 3.
- - I only managed to write property-based tests up to the `BeginEnd` environment command. The generator for valid `BeginEnd` commands became difficult to implement due to the following invariant described in the handout: "Begin...End can contain any number of operations but it will always result in a stack frame that is strictly larger than the stack prior to the Begin." I have some WIP generator code for `BeginEnd`, but it's not fully functional, so I have opted not to include it.
+ - I only managed to write property-based tests up to the `BeginEnd` environment command. The generator for valid `BeginEnd` commands (and therefore commands following it) became difficult to implement due to the following invariant described in the handout: "Begin...End can contain any number of operations but it will always result in a stack frame that is strictly larger than the stack prior to the Begin." I have some WIP generator code for `BeginEnd`, but it's not fully functional, so I have opted not to include it.
 - [ ] Use GADTs to clean up code and make it safer (for example, `**TestSpecs` can become simpler).
 - [ ] Create Gradescope wrapper around the property-based tests.
 
